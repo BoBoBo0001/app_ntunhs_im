@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">猜數字</string>
+    <string name="guess">猜</string>
+    <string name="reset">重置</string>
+    <string name="result">結果會顯示在這裡</string>
+</resources>

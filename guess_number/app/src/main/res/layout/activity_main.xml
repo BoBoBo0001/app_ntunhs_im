@@ -24,7 +24,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="156dp"
-        android:text="guess"
+        android:text="@string/guess"
+        android:textColor="@color/color_text"
+        android:background="@drawable/round_button_selector"
         app:layout_constraintStart_toStartOf="@+id/editText"
         app:layout_constraintTop_toTopOf="@+id/editText" />
 
@@ -34,7 +36,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="156dp"
         android:layout_marginEnd="8dp"
-        android:text="reset"
+        android:text="@string/reset"
+        android:textColor="@color/color_text"
+        android:background="@drawable/round_button_selector"
         app:layout_constraintEnd_toEndOf="@+id/editText"
         app:layout_constraintTop_toTopOf="@+id/editText" />
 
@@ -44,7 +48,7 @@
         android:layout_height="24dp"
         android:layout_marginTop="200dp"
         android:gravity="center"
-        android:text="結果會顯示在這裡"
+        android:text="@string/result"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
