@@ -94,5 +94,12 @@
         android:layout_height="50dp"
         android:text="Play choose a button"
         android:gravity="center"/>
+    <Button
+        android:id="@+id/btnPaperBack"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:scaleType="fitCenter"
+        android:text="Back"
+        android:layout_gravity="center" />
 </LinearLayout>
 

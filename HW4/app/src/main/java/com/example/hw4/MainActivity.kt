@@ -1,5 +1,6 @@
 package com.example.hw4
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.*
@@ -11,6 +12,7 @@ class MainActivity : AppCompatActivity() {
     private  lateinit var  btnScissors: ImageButton
     private  lateinit var  btnRock: ImageButton
     private  lateinit var  btnPaper: ImageButton
+    private  lateinit var  btnPaperBack: Button
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,6 +23,8 @@ class MainActivity : AppCompatActivity() {
         btnScissors = findViewById(R.id.imbtnScissors)
         btnRock = findViewById(R.id.imbtnRock)
         btnPaper = findViewById(R.id.imbtnPaper)
+        btnPaperBack = findViewById(R.id.btnPaperBack)
+
 
         txtCom = findViewById(R.id.txtCom)
 
@@ -32,6 +36,11 @@ class MainActivity : AppCompatActivity() {
         }
         btnPaper.setOnClickListener{
             playGame(Choice.paper)
+        }
+
+        btnPaperBack.setOnClickListener{
+            var seconIntent = Intent(this,FirstActivity::class.java)
+            startActivity(seconIntent)
         }
     }
 

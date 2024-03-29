@@ -11,4 +11,8 @@
     <string name="win">You Win!!!!!</string>
     <string name="lose">You lose!!!!!</string>
     <string name="draw">Draw!!!!!</string>
+    <!--guessNumber-->
+    <string name="guess">guess</string>
+    <string name="reset">reset</string>
+    <string name="result">result here</string>
 </resources>
